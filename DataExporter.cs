@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Threading.Tasks;
-using System.Collections.Generic;
 using System.Text;
-using GraphQL;
-using GraphQL.Types;
-using GraphQL.SystemTextJson; // First add PackageReference to GraphQL.SystemTextJson
+using System.Threading.Tasks;
+using System.Net.Http;
 
-
-namespace Datalogging_Application
+namespace WeatherSystem_RestAPI
 {
     class DataExporter
     {
         //static string target = "https://iot.dimensionfour.io/graph";
 
-        public void ExportData()
+        public async void ExportData()
         {
             try
             {
@@ -45,6 +41,6 @@ namespace Datalogging_Application
                 throw e;
             }
         }
-        
+
     }
 }
