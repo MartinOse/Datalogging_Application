@@ -1,0 +1,4 @@
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.AssemblyReference.cache
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data.resources
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.GenerateResource.cache

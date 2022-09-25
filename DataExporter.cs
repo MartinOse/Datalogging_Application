@@ -14,9 +14,15 @@ namespace WeatherSystem_RestAPI
             try
             {
                 string query = @"{
-                ""query"": ""mutation CREATE_SIGNAL (\r\n  $timestamp: Timestamp!\r\n  $pointId: ID!\r\n  $value: String!\r\n  )\r\n  {\r\n  signal {\r\n    create(input: {pointId: $pointId, signals: [{unit: CELSIUS_DEGREES, value: $value, type: \""testtemp\"", timestamp: $timestamp}]}) {\r\n      id\r\n      timestamp\r\n      createdAt\r\n      pointId\r\n      unit\r\n      type\r\n      data {\r\n        numericValue\r\n        rawValue\r\n      }\r\n    }\r\n  }\r\n}"",
+                ""query"": ""mutation CREATE_SIGNAL (\r\n  $timestamp: Timestamp!\r\n  
+                        $pointId: ID!\r\n  $value: String!\r\n  )\r\n  
+                        {\r\n  signal {\r\n    create(input: {pointId: $pointId, signals: 
+                        [{unit: CELSIUS_DEGREES, value: $value, type: \""testtemp\"", timestamp: $timestamp}]}) 
+                        {\r\n      id\r\n      timestamp\r\n      createdAt\r\n      pointId\r\n      
+                        unit\r\n      type\r\n      data {\r\n        numericValue\r\n        
+                        rawValue\r\n      }\r\n    }\r\n  }\r\n}"",
                 ""variables"": {
-                ""pointId"": ""<pointId>"",
+                ""pointId"": ""63307a7c6ad4bb84ded73c0e"",
                 ""timestamp"": ""2021-12-17T14:30:21.000+00:00"",
                 ""value"": ""123.45""
                     }
@@ -24,8 +30,8 @@ namespace WeatherSystem_RestAPI
 
                 HttpClient client = new HttpClient();
 
-                client.DefaultRequestHeaders.Add("x-tenant-id", "USN");
-                client.DefaultRequestHeaders.Add("x-tenant-key", "<key>");
+                client.DefaultRequestHeaders.Add("x-tenant-id", "weather-station");
+                client.DefaultRequestHeaders.Add("x-tenant-key", "2886e929cb7544fefdc1ddf2");
 
                 var content = new StringContent(query, Encoding.UTF8, "application/json");
                 Console.WriteLine(await content.ReadAsStringAsync());
