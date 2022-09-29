@@ -16,7 +16,7 @@ namespace WeatherSystem_RestAPI
 
             XmlDocument xml = new XmlDocument();
             xml.LoadXml(response);
-
+            /*
             XmlNodeList xmlNodes = xml.SelectNodes("/oriondata/");
 
             foreach (XmlNode xmlNode in xmlNodes)
@@ -28,6 +28,14 @@ namespace WeatherSystem_RestAPI
                 return_values[4] = xmlNode["meas name=\"mtWindSpeed\""].InnerText.ToString();
                 return_values[5] = xmlNode["meas name=\"mtAdjWindDir\""].InnerText.ToString();
             }
+            */
+
+            return_values[0] = xml.GetElementsByTagName("meas name=\"mtTemp1\"")[0].InnerText.ToString();
+            return_values[1] = xml.GetElementsByTagName("meas name=\"mtAdjBaromPress\"")[0].InnerText.ToString();
+            return_values[2] = xml.GetElementsByTagName("meas name=\"mtRelHumidity\"")[0].InnerText.ToString();
+            return_values[3] = xml.GetElementsByTagName("meas name=\"mtRainToday\"")[0].InnerText.ToString();
+            return_values[4] = xml.GetElementsByTagName("meas name=\"mtWindSpeed\"")[0].InnerText.ToString();
+            return_values[5] = xml.GetElementsByTagName("meas name=\"mtAdjWindDir\"")[0].InnerText.ToString();
 
             return return_values;
 
