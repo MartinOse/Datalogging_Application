@@ -7,18 +7,19 @@ namespace WeatherSystem_RestAPI
 {
     class DataExporter
     {
-        const string pointId = "<pointId>";
-        const string tenantId = "weather-station";
-        const string tenantKey = "2886e929cb7544fefdc1ddf2";
+        // connection data to Hamed's Dimension Four instance, for testing purposes of the POC
+        const string pointId = "63145ae412eee459bff82f9a";
+        const string tenantId = "hamed";
+        const string tenantKey = "1550b9bf6829b8b3d356875e";
 
-        public static async void ExportData(double val_temp, double val_pressure, double val_humidity, double val_rain, double val_wind_speed, double val_wind_dir)
+        public static async void ExportData(string[] values)
         {
-            double value_temp = val_temp;
-            double value_pressure = val_pressure;
-            double value_humidity = val_humidity;
-            double value_rain = val_rain;
-            double value_wind_speed = val_wind_speed;
-            double value_wind_dir = val_wind_dir;
+            string value_temp = values[0];
+            string value_pressure = values[1];
+            string value_humidity = values[2];
+            string value_rain = values[3];
+            string value_wind_speed = values[4];
+            string value_wind_dir = values[5];
 
             try
             {
@@ -38,12 +39,12 @@ namespace WeatherSystem_RestAPI
 
                 .Replace("%pointId%", pointId)
                 .Replace("%timestamp%", DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss.fffffff"))
-                .Replace("%value_temp%", value_temp.ToString())
-                .Replace("%value_pressure%", value_pressure.ToString())
-                .Replace("%value_humidity%", value_humidity.ToString())
-                .Replace("%value_rain%", value_rain.ToString())
-                .Replace("%value_wind_speed%", value_wind_speed.ToString())
-                .Replace("%value_wind_dir%", value_wind_dir.ToString());
+                .Replace("%value_temp%", value_temp)
+                .Replace("%value_pressure%", value_pressure)
+                .Replace("%value_humidity%", value_humidity)
+                .Replace("%value_rain%", value_rain)
+                .Replace("%value_wind_speed%", value_wind_speed)
+                .Replace("%value_wind_dir%", value_wind_dir);
 
                 HttpClient client = new HttpClient();
 

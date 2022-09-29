@@ -2,3 +2,10 @@ C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.SuggestedBindingRedirects.cache
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data.resources
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.GenerateResource.cache
+C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\WeatherSystem_RestAPI.exe.config
+C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\WeatherSystem_RestAPI.exe
+C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\WeatherSystem_RestAPI.pdb
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.Properties.Resources.resources
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.exe
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.pdb
