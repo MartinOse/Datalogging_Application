@@ -12,7 +12,7 @@ namespace WeatherSystem_RestAPI
         public string[] UnpackXML(string xml_string)
         {
             string response = xml_string;
-            string[] return_values = new string[6];
+            string[] return_values = new string[6] {"0", "0", "0", "0", "0", "0"};
 
             XmlDocument xml = new XmlDocument();
             xml.LoadXml(response);
