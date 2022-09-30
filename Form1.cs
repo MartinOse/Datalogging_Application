@@ -51,7 +51,7 @@ namespace WeatherSystem_RestAPI
             rClient.endPoint = txtRequestURL.Text;
 
             debugOutput("Rest Client Created.");
-            string strResponse = string.Empty;
+            string strResponse = "";
             strResponse = rClient.makeRequest();
 
             string[] responseValues = new string[6];
