@@ -46,11 +46,17 @@ namespace WeatherSystem_RestAPI
         private void timer1_Tick(object sender, EventArgs e)
         {
             RestClient rClient = new RestClient();
+            DataTransform dTransform = new DataTransform();
+
             rClient.endPoint = txtRequestURL.Text;
 
             debugOutput("Rest Client Created.");
             string strResponse = string.Empty;
             strResponse = rClient.makeRequest();
+
+            string[] responseValues = dTransform.UnpackXML(strResponse);
+            DataExporter.ExportData(responseValues);
+
             debugOutput(strResponse);
 
             txtResponse.AppendText(Environment.NewLine);
