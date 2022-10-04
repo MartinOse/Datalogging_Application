@@ -17,8 +17,8 @@
   <meas name="mt60MinWindGustTime">2022/09/22 11:34:12</meas>
   <meas name="mtTemp1">255.4</meas>
   <meas name="mtRelHumidity">76</meas>
-  <meas name="mtSolarRadiation">128</meas><
-  meas name="mtWindChill">255.4</meas>
+  <meas name="mtSolarRadiation">128</meas>
+  <meas name="mtWindChill">255.4</meas>
   <meas name="mtHeatIndex">131.0</meas>
   <meas name="mtDewPoint">240.0</meas>
   <meas name="mtDegreeDay">31722.7</meas>
