@@ -16,7 +16,7 @@ namespace WeatherSystem_RestAPI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Retrieving_Data());
+            Application.Run(new MainPage());
         }
     }
 }
