@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,8 @@ namespace WeatherSystem_RestAPI
 {
     public partial class Retrieving_Data : Form
     {
+
+        DataTransform dTransform = new DataTransform();
         public Retrieving_Data()
         {
             InitializeComponent();
@@ -46,17 +49,15 @@ namespace WeatherSystem_RestAPI
         private void timer1_Tick(object sender, EventArgs e)
         {
             RestClient rClient = new RestClient();
-            DataTransform dTransform = new DataTransform();
+            //string contents = File.ReadAllText(@"C:\Users\marti\Documents\GitHub\Datalogging_Application\test.xml");
 
             rClient.endPoint = txtRequestURL.Text;
 
             debugOutput("Rest Client Created.");
-            string strResponse = "";
+            string strResponse = string.Empty;
             strResponse = rClient.makeRequest();
 
-            string[] responseValues = new string[6];
-
-            responseValues = dTransform.UnpackXML(strResponse.ToString());
+            List<string[]> responseValues = dTransform.UnpackXML(strResponse.ToString());
             DataExporter.ExportData(responseValues);
 
             debugOutput(strResponse);

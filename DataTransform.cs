@@ -9,20 +9,26 @@ namespace WeatherSystem_RestAPI
 {
     internal class DataTransform
     {
-        public string[] UnpackXML(string xml_string)
+        public List<string[]> UnpackXML(string xml_string)
         {
             string response = xml_string;
-            string[] return_values = new string[6];
+            List<string[]> return_values = new List<string[]>();
 
             XmlDocument xml = new XmlDocument();
             xml.LoadXml(response);
 
-            return_values[0] = xml.SelectNodes("descendant::meas[@name=\"mtTemp1\"]")[0].InnerText.ToString();
-            return_values[1] = xml.SelectNodes("descendant::meas[@name=\"mtAdjBaromPress\"]")[0].InnerText.ToString();
-            return_values[2] = xml.SelectNodes("descendant::meas[@name=\"mtRelHumidity\"]")[0].InnerText.ToString();
-            return_values[3] = xml.SelectNodes("descendant::meas[@name=\"mtRainToday\"]")[0].InnerText.ToString();
-            return_values[4] = xml.SelectNodes("descendant::meas[@name=\"mtWindSpeed\"]")[0].InnerText.ToString();
-            return_values[5] = xml.SelectNodes("descendant::meas[@name=\"mtAdjWindDir\"]")[0].InnerText.ToString();
+            var nodes = xml.SelectNodes("//oriondata/meas");
+
+            foreach (XmlElement e in nodes)
+            {
+                //Console.WriteLine(e.GetAttribute("name"));
+                //Console.WriteLine(e.InnerText.ToString());
+                string[] nodeVals = new string[2];
+                nodeVals[0] = e.GetAttribute("name").ToString();
+                nodeVals[1] = e.InnerText.ToString();
+
+                return_values.Add(nodeVals);
+            }
 
             return return_values;
 

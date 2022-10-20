@@ -2,6 +2,7 @@
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.Http;
+using System.Collections.Generic;
 
 namespace WeatherSystem_RestAPI
 {
@@ -12,7 +13,7 @@ namespace WeatherSystem_RestAPI
         const string tenantId = "hamed";
         const string tenantKey = "1550b9bf6829b8b3d356875e";
 
-        public static async void ExportData(string[] values)
+        public static async void ExportData(List<string[]> values)
         {
             string value_temp = values[0];
             string value_pressure = values[1];
