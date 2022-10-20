@@ -62,7 +62,7 @@
             this.txtResponse.Multiline = true;
             this.txtResponse.Name = "txtResponse";
             this.txtResponse.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtResponse.Size = new System.Drawing.Size(835, 316);
+            this.txtResponse.Size = new System.Drawing.Size(897, 508);
             this.txtResponse.TabIndex = 2;
             // 
             // lbResponse
@@ -79,15 +79,15 @@
             this.timer1.Interval = 5000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // Retrieving_Data
+            // Retrieving_Data_Form
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1118, 469);
+            this.ClientSize = new System.Drawing.Size(1180, 661);
             this.Controls.Add(this.lbResponse);
             this.Controls.Add(this.txtResponse);
             this.Controls.Add(this.lbURL);
             this.Controls.Add(this.txtRequestURL);
-            this.Name = "Retrieving_Data";
+            this.Name = "Retrieving_Data_Form";
             this.Text = "Retrieving Data From Weather Station";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

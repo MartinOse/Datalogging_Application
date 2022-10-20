@@ -54,7 +54,7 @@ namespace WeatherSystem_RestAPI
             string strResponse = "";
             strResponse = rClient.makeRequest();
 
-            string[] responseValues = new string[6];
+            string[] responseValues = new string[45];
 
             responseValues = dTransform.UnpackXML(strResponse.ToString());
             DataExporter.ExportData(responseValues);
@@ -62,6 +62,27 @@ namespace WeatherSystem_RestAPI
             debugOutput(strResponse);
 
             txtResponse.AppendText(Environment.NewLine);
+
+            int i = 0;
+            foreach (var item in responseValues)
+            {
+                var textBox1 = new TextBox();
+                var label = new Label();
+
+
+                textBox1.Width = 300;
+                textBox1.Height = 50;
+                textBox1.Name = "txtData" + i;
+                textBox1.Location = new System.Drawing.Point(200, 90 + i * 25);
+                label.Text = item.ToString();
+                label.Location = new System.Drawing.Point(60, 90 + i * 25);
+                textBox1.Text = item.ToString();
+                this.Controls.Add(textBox1);
+                this.Controls.Add(label);
+                textBox1.BackColor = Color.AliceBlue;
+                i++;
+
+            }
 
 
         }
@@ -75,7 +96,14 @@ namespace WeatherSystem_RestAPI
         {
             txtRequestURL.Text = "http://128.39.35.253/latestsampledata.xml";
             lbURL.Visible = false;
+            lbResponse.Visible = false;
             txtRequestURL.Visible = false;
+            txtResponse.Visible = false;
+            txtRequestURL.Visible = false;
+
+           
+            
+
             timer1.Enabled = true;
         }
     }
