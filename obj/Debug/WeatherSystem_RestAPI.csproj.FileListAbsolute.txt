@@ -25,3 +25,6 @@ F:\1_USN\3_Fall2022\Project\GitHun File\Datalogging_Application-main-14-10-2022\
 F:\1_USN\3_Fall2022\Project\GitHun File\Datalogging_Application-main-14-10-2022\obj\Debug\WeatherSystem_RestAPI.MainPage.resources
 F:\1_USN\3_Fall2022\Project\GitHun File\Datalogging_Application-main-14-10-2022\obj\Debug\WeatherSystem_RestAPI.ParametersForm.resources
 F:\1_USN\3_Fall2022\Project\GitHun File\Datalogging_Application-main-14-10-2022\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data_Form.resources
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.MainPage.resources
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.ParametersForm.resources
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data_Form.resources

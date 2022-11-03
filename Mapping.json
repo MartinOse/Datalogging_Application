@@ -1,0 +1,8 @@
+{
+  "Celsius": "CELSIUS_DEGREES",
+  "Pascal": "PASCAL",
+  "Degree": "DEGREES",
+  "Mps": "METERS_PER_SECOND",
+  "Percent": "PERCENTS",
+  "Unknown": "UNKNOWN"
+}

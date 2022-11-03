@@ -54,7 +54,7 @@ namespace WeatherSystem_RestAPI
             string strResponse = "";
             strResponse = rClient.makeRequest();
 
-            string[] responseValues = new string[45];
+            List<string[]> responseValues = new List<string[]>();
 
             responseValues = dTransform.UnpackXML(strResponse.ToString());
             DataExporter.ExportData(responseValues);
