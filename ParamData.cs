@@ -13,7 +13,7 @@ namespace WeatherSystem_RestAPI
     {
         public string ParamName { get; set; }
         public DateTime ParamDate { get; set; }
-        public int User_id { get; set; }
+        public string User_Name { get; set; }
 
 
         public List<ParamData> GetParam()
@@ -21,7 +21,7 @@ namespace WeatherSystem_RestAPI
             string connectionString = ConfigurationManager.ConnectionStrings["DatabaseConnectionString"].ConnectionString;
             SqlConnection con = new SqlConnection(connectionString);
             List<ParamData> ComponentDatalist = new List<ParamData>();
-            string selectSQL = "select User_Id, Name_Param, Date_Chosen from Chosen_Param";
+            string selectSQL = "select User_Name, Name_Param, Date_Chosen from Chosen_Param";
             con.Open();
             SqlCommand cmd = new SqlCommand(selectSQL, con);
             SqlDataReader dr = cmd.ExecuteReader();
@@ -32,7 +32,7 @@ namespace WeatherSystem_RestAPI
                     ParamData paramData = new ParamData();
                     paramData.ParamName = Convert.ToString(dr["Name_Param"]);
                     paramData.ParamDate = Convert.ToDateTime(dr["Date_Chosen"]);
-                    paramData.User_id = Convert.ToInt32(dr["User_Id"]);
+                    paramData.User_Name = Convert.ToString(dr["User_Name"]);
                     ComponentDatalist.Add(paramData);
                 }
             }
@@ -43,17 +43,17 @@ namespace WeatherSystem_RestAPI
 
 
 
-        public void WriteParam(string Name_Param, int User_Id, DateTime Date_Chosen)
+        public void WriteParam(string Name_Param, string User_Name, DateTime Date_Chosen)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["DatabaseConnectionString"].ConnectionString;
             SqlConnection con = new SqlConnection(connectionString);
             con.Open();
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = System.Data.CommandType.Text;
-            cmd.CommandText = "INSERT Chosen_Param (Name_Param,Date_Chosen,User_Id) VALUES (@ParamName, @ParamDate,@User_id)";
+            cmd.CommandText = "INSERT Chosen_Param (Name_Param,Date_Chosen,User_Name) VALUES (@ParamName, @ParamDate,@User_Name)";
             cmd.Parameters.Add(new SqlParameter("@ParamName", Name_Param));
             cmd.Parameters.Add(new SqlParameter("@ParamDate", Date_Chosen));
-            cmd.Parameters.Add(new SqlParameter("@User_id", User_Id));
+            cmd.Parameters.Add(new SqlParameter("@User_Name", User_Name));
 
             cmd.Connection = con;
             cmd.ExecuteNonQuery();

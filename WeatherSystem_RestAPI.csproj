@@ -55,6 +55,12 @@
   <ItemGroup>
     <Compile Include="DataTransform.cs" />
     <Compile Include="DataExporter.cs" />
+    <Compile Include="Logging_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logging_Form.Designer.cs">
+      <DependentUpon>Logging_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,13 @@
     <Compile Include="ParametersForm.Designer.cs">
       <DependentUpon>ParametersForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Paraminfo.cs" />
+    <Compile Include="ParaminfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParaminfoForm.Designer.cs">
+      <DependentUpon>ParaminfoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Retrieving_Data_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,11 +90,17 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RestClient.cs" />
+    <EmbeddedResource Include="Logging_Form.resx">
+      <DependentUpon>Logging_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ParametersForm.resx">
       <DependentUpon>ParametersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParaminfoForm.resx">
+      <DependentUpon>ParaminfoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Retrieving_Data_Form.resx">
       <DependentUpon>Retrieving_Data_Form.cs</DependentUpon>

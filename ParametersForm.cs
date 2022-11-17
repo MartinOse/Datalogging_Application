@@ -16,6 +16,7 @@ namespace WeatherSystem_RestAPI
     {
         List<ParamData> paramlist = new List<ParamData>();
         ParamData param = new ParamData();
+       
         public ParametersForm()
         {
             InitializeComponent();
@@ -47,16 +48,14 @@ namespace WeatherSystem_RestAPI
                 
                 string ParamName = Convert.ToString(cbParam.Text.ToString());
                 DateTime ParamDate = DateTime.Now;
-                int User_Id = 1;
+                string User_Name = "Admin";
                 
-                param.WriteParam(ParamName, User_Id,ParamDate);
+                param.WriteParam(ParamName, User_Name,ParamDate);
                 paramlist = param.GetParam();
                 cbParam.Text = null;
 
                 dgvParam.Refresh();
                 FillParamdgv();
-
-
             }
 
         }

@@ -21,8 +21,6 @@ namespace WeatherSystem_RestAPI
 
             foreach (XmlElement e in nodes)
             {
-                //Console.WriteLine(e.GetAttribute("name"));
-                //Console.WriteLine(e.InnerText.ToString());
                 string[] nodeVals = new string[2];
                 nodeVals[0] = e.GetAttribute("name").ToString();
                 nodeVals[1] = e.InnerText.ToString();

@@ -30,12 +30,12 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.informationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.parametersInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chosenParametersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.retrievingDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openRetreivingDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutWeatherSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contactUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,25 +45,34 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.informationToolStripMenuItem,
             this.retrievingDataToolStripMenuItem,
-            this.helpToolStripMenuItem});
+            this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(600, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // informationToolStripMenuItem
             // 
             this.informationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.parametersInfoToolStripMenuItem,
             this.chosenParametersToolStripMenuItem});
             this.informationToolStripMenuItem.Name = "informationToolStripMenuItem";
-            this.informationToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
+            this.informationToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.informationToolStripMenuItem.Text = "Information";
+            // 
+            // parametersInfoToolStripMenuItem
+            // 
+            this.parametersInfoToolStripMenuItem.Name = "parametersInfoToolStripMenuItem";
+            this.parametersInfoToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.parametersInfoToolStripMenuItem.Text = "Parameters Info";
+            this.parametersInfoToolStripMenuItem.Click += new System.EventHandler(this.parametersInfoToolStripMenuItem_Click);
             // 
             // chosenParametersToolStripMenuItem
             // 
             this.chosenParametersToolStripMenuItem.Name = "chosenParametersToolStripMenuItem";
-            this.chosenParametersToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.chosenParametersToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.chosenParametersToolStripMenuItem.Text = "Chosen Parameters";
             this.chosenParametersToolStripMenuItem.Click += new System.EventHandler(this.chosenParametersToolStripMenuItem_Click);
             // 
@@ -72,46 +81,43 @@
             this.retrievingDataToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openRetreivingDataToolStripMenuItem});
             this.retrievingDataToolStripMenuItem.Name = "retrievingDataToolStripMenuItem";
-            this.retrievingDataToolStripMenuItem.Size = new System.Drawing.Size(126, 24);
+            this.retrievingDataToolStripMenuItem.Size = new System.Drawing.Size(99, 20);
             this.retrievingDataToolStripMenuItem.Text = "Retrieving Data";
             // 
             // openRetreivingDataToolStripMenuItem
             // 
             this.openRetreivingDataToolStripMenuItem.Name = "openRetreivingDataToolStripMenuItem";
-            this.openRetreivingDataToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
+            this.openRetreivingDataToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.openRetreivingDataToolStripMenuItem.Text = "Open Retreiving Data";
             this.openRetreivingDataToolStripMenuItem.Click += new System.EventHandler(this.openRetreivingDataToolStripMenuItem_Click);
             // 
-            // helpToolStripMenuItem
+            // exitToolStripMenuItem
             // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutWeatherSystemToolStripMenuItem,
-            this.contactUsToolStripMenuItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
-            this.helpToolStripMenuItem.Text = "Help";
+            this.exitToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exitToolStripMenuItem1});
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.exitToolStripMenuItem.Text = "Exit";
             // 
-            // aboutWeatherSystemToolStripMenuItem
+            // exitToolStripMenuItem1
             // 
-            this.aboutWeatherSystemToolStripMenuItem.Name = "aboutWeatherSystemToolStripMenuItem";
-            this.aboutWeatherSystemToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
-            this.aboutWeatherSystemToolStripMenuItem.Text = "About Weather System";
-            // 
-            // contactUsToolStripMenuItem
-            // 
-            this.contactUsToolStripMenuItem.Name = "contactUsToolStripMenuItem";
-            this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
-            this.contactUsToolStripMenuItem.Text = "Contact Us";
+            this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem1.Text = "Exit";
+            this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
             // MainPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainPage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainPage";
+            this.Load += new System.EventHandler(this.MainPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -126,8 +132,8 @@
         private System.Windows.Forms.ToolStripMenuItem chosenParametersToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem retrievingDataToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openRetreivingDataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutWeatherSystemToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem contactUsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem parametersInfoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem1;
     }
 }

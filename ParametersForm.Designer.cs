@@ -185,7 +185,7 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // Parameters
+            // ParametersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -196,7 +196,8 @@
             this.Controls.Add(this.cbParam);
             this.Controls.Add(this.btnAddParam);
             this.Controls.Add(this.dgvParam);
-            this.Name = "Parameters";
+            this.Name = "ParametersForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Parameters";
             this.Load += new System.EventHandler(this.Parameters_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvParam)).EndInit();

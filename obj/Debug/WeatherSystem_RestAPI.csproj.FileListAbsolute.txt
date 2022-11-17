@@ -1,5 +1,6 @@
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.AssemblyReference.cache
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.SuggestedBindingRedirects.cache
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data.resources
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.GenerateResource.cache
 C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\WeatherSystem_RestAPI.exe.config
 C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\WeatherSystem_RestAPI.exe
@@ -27,8 +28,101 @@ F:\1_USN\3_Fall2022\Project\GitHun File\Datalogging_Application-main-14-10-2022\
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.MainPage.resources
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.ParametersForm.resources
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data_Form.resources
-C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\Newtonsoft.Json.dll
-C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\System.Data.SqlClient.dll
-C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\Newtonsoft.Json.xml
-C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\System.Data.SqlClient.xml
-C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.CopyComplete
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.exe.config
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.exe
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.pdb
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\Newtonsoft.Json.dll
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\System.Data.SqlClient.dll
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\Newtonsoft.Json.xml
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\System.Data.SqlClient.xml
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.AssemblyReference.cache
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.SuggestedBindingRedirects.cache
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.MainPage.resources
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.ParametersForm.resources
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data_Form.resources
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Properties.Resources.resources
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.GenerateResource.cache
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CoreCompileInputs.cache
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CopyComplete
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.exe
+F:\1_USN\3_Fall2022\Project\GitHun File\04-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.pdb
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.exe.config
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.exe
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.pdb
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\Newtonsoft.Json.dll
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\System.Data.SqlClient.dll
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\Newtonsoft.Json.xml
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\bin\Debug\System.Data.SqlClient.xml
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.AssemblyReference.cache
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.SuggestedBindingRedirects.cache
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Logging_Form.resources
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.MainPage.resources
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.ParametersForm.resources
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data_Form.resources
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Properties.Resources.resources
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.GenerateResource.cache
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CoreCompileInputs.cache
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CopyComplete
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.exe
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.pdb
+F:\1_USN\3_Fall2022\Project\GitHun File\11-11-2022\Datalogging_Application-main\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Param_info.resources
+I:\11-11-2022\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.exe.config
+I:\11-11-2022\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.exe
+I:\11-11-2022\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.pdb
+I:\11-11-2022\Datalogging_Application-main\bin\Debug\Newtonsoft.Json.dll
+I:\11-11-2022\Datalogging_Application-main\bin\Debug\System.Data.SqlClient.dll
+I:\11-11-2022\Datalogging_Application-main\bin\Debug\Newtonsoft.Json.xml
+I:\11-11-2022\Datalogging_Application-main\bin\Debug\System.Data.SqlClient.xml
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.AssemblyReference.cache
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.SuggestedBindingRedirects.cache
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Logging_Form.resources
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.MainPage.resources
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.ParametersForm.resources
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Param_info.resources
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data_Form.resources
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Properties.Resources.resources
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.GenerateResource.cache
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CoreCompileInputs.cache
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CopyComplete
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.exe
+I:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.pdb
+C:\11-11-2022\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.exe.config
+C:\11-11-2022\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.exe
+C:\11-11-2022\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.pdb
+C:\11-11-2022\Datalogging_Application-main\bin\Debug\Newtonsoft.Json.dll
+C:\11-11-2022\Datalogging_Application-main\bin\Debug\System.Data.SqlClient.dll
+C:\11-11-2022\Datalogging_Application-main\bin\Debug\Newtonsoft.Json.xml
+C:\11-11-2022\Datalogging_Application-main\bin\Debug\System.Data.SqlClient.xml
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.AssemblyReference.cache
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.SuggestedBindingRedirects.cache
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Logging_Form.resources
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.MainPage.resources
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.ParametersForm.resources
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data_Form.resources
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Properties.Resources.resources
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.GenerateResource.cache
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CoreCompileInputs.cache
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CopyComplete
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.exe
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.pdb
+C:\11-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.ParaminfoForm.resources
+C:\15-11-2022\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.exe.config
+C:\15-11-2022\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.exe
+C:\15-11-2022\Datalogging_Application-main\bin\Debug\WeatherSystem_RestAPI.pdb
+C:\15-11-2022\Datalogging_Application-main\bin\Debug\Newtonsoft.Json.dll
+C:\15-11-2022\Datalogging_Application-main\bin\Debug\System.Data.SqlClient.dll
+C:\15-11-2022\Datalogging_Application-main\bin\Debug\Newtonsoft.Json.xml
+C:\15-11-2022\Datalogging_Application-main\bin\Debug\System.Data.SqlClient.xml
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.AssemblyReference.cache
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.SuggestedBindingRedirects.cache
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Logging_Form.resources
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.MainPage.resources
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.ParametersForm.resources
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.ParaminfoForm.resources
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data_Form.resources
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.Properties.Resources.resources
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.GenerateResource.cache
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CoreCompileInputs.cache
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CopyComplete
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.exe
+C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.pdb
