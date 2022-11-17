@@ -1,6 +1,5 @@
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.AssemblyReference.cache
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.SuggestedBindingRedirects.cache
-C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.Retrieving_Data.resources
 C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.GenerateResource.cache
 C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\WeatherSystem_RestAPI.exe.config
 C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\WeatherSystem_RestAPI.exe
@@ -126,3 +125,10 @@ C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.cspro
 C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.csproj.CopyComplete
 C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.exe
 C:\15-11-2022\Datalogging_Application-main\obj\Debug\WeatherSystem_RestAPI.pdb
+C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\Newtonsoft.Json.dll
+C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\System.Data.SqlClient.dll
+C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\Newtonsoft.Json.xml
+C:\Users\marti\Documents\GitHub\Datalogging_Application\bin\Debug\System.Data.SqlClient.xml
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.Logging_Form.resources
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.ParaminfoForm.resources
+C:\Users\marti\Documents\GitHub\Datalogging_Application\obj\Debug\WeatherSystem_RestAPI.csproj.CopyComplete
