@@ -1,8 +1,8 @@
 {
-  "Celsius": "CELSIUS_DEGREES",
-  "Pascal": "PASCAL",
-  "Degree": "DEGREES",
-  "Mps": "METERS_PER_SECOND",
-  "Percent": "PERCENTS",
-  "Unknown": "UNKNOWN"
+  "mtTemp": "CELSIUS_DEGREES",
+  "mtPressure": "PASCAL",
+  "mtWindDirection": "DEGREES",
+  "mtWindSpeed": "METERS_PER_SECOND",
+  "mtHumidity": "PERCENTS",
+  "mtRain": "UNKNOWN"
 }

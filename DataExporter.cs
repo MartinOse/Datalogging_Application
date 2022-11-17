@@ -3,6 +3,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.Http;
 using System.Collections.Generic;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace WeatherSystem_RestAPI
 {
@@ -12,7 +14,7 @@ namespace WeatherSystem_RestAPI
         const string pointId = "63145ae412eee459bff82f9a";
         const string tenantId = "hamed";
         const string tenantKey = "1550b9bf6829b8b3d356875e";
-
+        private static Dictionary<string, string> keyMap;
 
         public static async void ExportData(List<string[]> dataList)
         {
@@ -23,13 +25,26 @@ namespace WeatherSystem_RestAPI
                 StringBuilder signalQuery = new StringBuilder();
                 StringBuilder variables = new StringBuilder();
 
+                string mapfile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Mapping.json");
+
+                //If Map json exists, try to parse and load it into a dictionary
+                if (File.Exists(mapfile))
+                {
+                    string jsonContent = File.ReadAllText(mapfile);
+                    if (!string.IsNullOrEmpty(jsonContent))
+                    {
+                        keyMap = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonContent);
+
+                    }
+                }
+
 
                 dataList.ForEach(data =>
 
                 {
                     fields.Append($"${data[0]}:String!");
 
-                    signalQuery.Append("{unit: UNKNOWN value:$" + data[0] + " type:\\\"String\\\" timestamp:$timestamp}, ");
+                    signalQuery.Append("{unit: " + keyMap[data[0]] + " value:$" + data[0] + " type:\\\"String\\\" timestamp:$timestamp}, ");
 
                     variables.Append($",\n\"{data[0]}\":\"{data[1]}\"");
 
