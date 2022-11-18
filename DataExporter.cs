@@ -14,8 +14,8 @@ namespace WeatherSystem_RestAPI
         const string pointId = "63145ae412eee459bff82f9a";
         const string tenantId = "hamed";
         const string tenantKey = "1550b9bf6829b8b3d356875e";
-        private static Dictionary<string, string> keyMap_1;
-        private static Dictionary<string, string> keyMap_2;
+        private static Dictionary<string, string> keyMap_unit;
+        private static Dictionary<string, string> keyMap_type;
 
         public static async void ExportData(List<string[]> dataList)
         {
@@ -28,26 +28,26 @@ namespace WeatherSystem_RestAPI
                 StringBuilder signalQuery = new StringBuilder();
                 StringBuilder variables = new StringBuilder();
 
-                string mapfile1 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Mapping.json");
-                string mapfile2 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Mapping_types.json");
+                string mapfile_unit = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Mapping_unit.json");
+                string mapfile_types = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Mapping_types.json");
 
                 //If Map json exists, try to parse and load it into a dictionary
-                if (File.Exists(mapfile1))
+                if (File.Exists(mapfile_unit))
                 {
-                    string jsonContent = File.ReadAllText(mapfile1);
+                    string jsonContent = File.ReadAllText(mapfile_unit);
                     if (!string.IsNullOrEmpty(jsonContent))
                     {
-                        keyMap_1 = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonContent);
+                        keyMap_unit = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonContent);
 
                     }
                 }
 
-                if (File.Exists(mapfile2))
+                if (File.Exists(mapfile_types))
                 {
-                    string jsonContent = File.ReadAllText(mapfile1);
+                    string jsonContent = File.ReadAllText(mapfile_types);
                     if (!string.IsNullOrEmpty(jsonContent))
                     {
-                        keyMap_2 = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonContent);
+                        keyMap_type = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonContent);
 
                     }
                 }
@@ -58,7 +58,7 @@ namespace WeatherSystem_RestAPI
                 {
                     fields.Append($"${data[0]}:String!");
 
-                    signalQuery.Append("{unit: " + keyMap_1[data[0]] + " value:$" + data[0] + " type:\\\"" + keyMap_2[data[0]] + "\\\" timestamp:$timestamp}, ");
+                    signalQuery.Append("{unit: " + keyMap_unit[data[0]] + " value:$" + data[0] + " type:\\\"" + keyMap_type[data[0]] + "\\\" timestamp:$timestamp}, ");
 
                     variables.Append($",\n\"{data[0]}\":\"{data[1]}\"");
 
